@@ -40,8 +40,8 @@ class GPTAssistant:
             model="glm-4",
             temperature=0.5,
             max_tokens=2048,
-            zhipuai_api_base="https://open.bigmodel.cn/api/paas/v4/chat/completions",
-            zhipuai_api_key="ea014227309598e3e5316b060fde1318.m8PmgfsFYHyxcXbd"
+            zhipuai_api_base
+            zhipuai_api_key
         )
         logging.info(f"Done.")
 
