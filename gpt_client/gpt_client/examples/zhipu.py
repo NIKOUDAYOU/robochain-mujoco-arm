@@ -1,5 +1,5 @@
 from zhipuai import ZhipuAI
-client = ZhipuAI(api_key="df78dba1ff27b62484933fa91a4d5050.rzWZYCP2e5TGTZBi")  # 请填写您自己的APIKey
+client = ZhipuAI(api_key="填写自己的API")  # 请填写您自己的APIKey
 response = client.chat.completions.create(
     model="glm-4",  # 请填写您要调用的模型名称,
     max_tokens= 2048
