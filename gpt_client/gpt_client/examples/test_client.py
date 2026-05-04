@@ -18,7 +18,7 @@ from gpt_client.gpt_client.commons.utils import *
 logging.basicConfig(level=logging.INFO)
 
 
-os.environ["ZHIPUAI_API_KEY"] = "ea014227309598e3e5316b060fde1318.m8PmgfsFYHyxcXbd"
+os.environ["ZHIPUAI_API_KEY"]
 class GPTAssistant:
     """ Load ChatGPT config and your custom pre-prompts. """
 
@@ -34,8 +34,6 @@ class GPTAssistant:
             model="glm-4",
             temperature=0.5,
             max_tokens=2048,
-            zhipuai_api_base="https://open.bigmodel.cn/api/paas/v4/chat/completions",
-            zhipuai_api_key="ea014227309598e3e5316b060fde1318.m8PmgfsFYHyxcXbd"
         )
         logging.info(f"Done.")
 
