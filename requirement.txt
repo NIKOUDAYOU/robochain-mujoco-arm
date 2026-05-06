@@ -1,0 +1,64 @@
+# =========================
+# Basic dependencies
+# =========================
+numpy
+scipy
+pandas
+pyyaml
+python-dotenv
+requests
+tqdm
+
+# =========================
+# LLM / LangChain / RAG
+# =========================
+langchain
+langchain-core
+langchain-community
+openai
+dashscope
+pydantic
+faiss-cpu
+sentence-transformers
+
+# =========================
+# Deep Learning / Transformers
+# =========================
+torch
+transformers
+accelerate
+sentencepiece
+
+# =========================
+# ASR - Speech Recognition
+# =========================
+openai-whisper
+sounddevice
+soundfile
+librosa
+pydub
+ffmpeg-python
+
+# =========================
+# TTS - Text To Speech
+# =========================
+edge-tts
+websocket-client
+pygame
+
+# =========================
+# Web / API Service
+# =========================
+fastapi
+uvicorn
+
+# =========================
+# MuJoCo Simulation
+# =========================
+mujoco
+dm-control
+
+# =========================
+# Network Communication
+# =========================
+websockets
